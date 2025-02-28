@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",
-     "moduleResolution": "bundler",
+    "moduleResolution": "bundler",
     "lib": ["es2022"],
     "experimentalDecorators": true,
     "types": ["node", "google-apps-script", "vitest/importMeta"]

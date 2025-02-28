@@ -3,8 +3,8 @@ export function sum(a: number, b: number): number {
 }
 
 if (import.meta.vitest) {
-  const { it, expect } = import.meta.vitest
-  it('sum', () => {
-    expect(sum(1, 2,)).toBe(3)
-  })
+  const { it, expect } = import.meta.vitest;
+  it("sum", () => {
+    expect(sum(1, 2)).toBe(3);
+  });
 }

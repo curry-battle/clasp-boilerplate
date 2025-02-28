@@ -10,7 +10,7 @@ esbuild
     minify: true,
     outfile: "./dist/main.js",
     plugins: [GasPlugin],
-    define: { 'import.meta.vitest': 'undefined' },
+    define: { "import.meta.vitest": "undefined" },
   })
   .then(() => {
     // Copy the appsscript.json file to the dist directory
