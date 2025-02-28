@@ -11,8 +11,8 @@ const doPost = (e: GoogleAppsScript.Events.DoPost) => {
   const response = { text: e.parameter.text };
 
   // You can write a log to a spreadsheet.
-  // When publishing GAS as a Web API, this method is useful because there is no logging mechanism.
-  // Before using this, you need to set the LOG_SPREAD_SHEET_ID, LOG_SPREASHEET_SHEET_NAME in the script properties
+  // When publishing GAS as a Web API, this method is useful because there is no logging mechanism!
+  // Before using this, you need to create SpreadSheet and set the LOG_SPREAD_SHEET_ID, LOG_SPREASHEET_SHEET_NAME in the script properties
 
   // const logWriter = new LogWriter()
   // logWriter.write(`The sum is: ${result}`);
